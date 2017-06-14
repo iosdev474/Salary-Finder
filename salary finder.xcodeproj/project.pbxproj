@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8106904C1EF10BF8009B58DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8106904B1EF10BF8009B58DF /* main.m */; };
+		8106904F1EF10BF8009B58DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8106904E1EF10BF8009B58DF /* AppDelegate.m */; };
+		810690521EF10BF8009B58DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810690511EF10BF8009B58DF /* ViewController.m */; };
+		810690551EF10BF8009B58DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810690531EF10BF8009B58DF /* Main.storyboard */; };
+		810690571EF10BF8009B58DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810690561EF10BF8009B58DF /* Assets.xcassets */; };
+		8106905A1EF10BF8009B58DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810690581EF10BF8009B58DF /* LaunchScreen.storyboard */; };
+		810690651EF10BF8009B58DF /* salary_finderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 810690641EF10BF8009B58DF /* salary_finderTests.m */; };
+		810690701EF10BF8009B58DF /* salary_finderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8106906F1EF10BF8009B58DF /* salary_finderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		810690611EF10BF8009B58DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8106903F1EF10BF8009B58DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810690461EF10BF8009B58DF;
+			remoteInfo = "salary finder";
+		};
+		8106906C1EF10BF8009B58DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8106903F1EF10BF8009B58DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810690461EF10BF8009B58DF;
+			remoteInfo = "salary finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		810690471EF10BF8009B58DF /* salary finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "salary finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8106904B1EF10BF8009B58DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8106904D1EF10BF8009B58DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8106904E1EF10BF8009B58DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		810690501EF10BF8009B58DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		810690511EF10BF8009B58DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		810690541EF10BF8009B58DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		810690561EF10BF8009B58DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		810690591EF10BF8009B58DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8106905B1EF10BF8009B58DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810690601EF10BF8009B58DF /* salary finderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "salary finderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810690641EF10BF8009B58DF /* salary_finderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = salary_finderTests.m; sourceTree = "<group>"; };
+		810690661EF10BF8009B58DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8106906B1EF10BF8009B58DF /* salary finderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "salary finderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8106906F1EF10BF8009B58DF /* salary_finderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = salary_finderUITests.m; sourceTree = "<group>"; };
+		810690711EF10BF8009B58DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		810690441EF10BF8009B58DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8106905D1EF10BF8009B58DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810690681EF10BF8009B58DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8106903E1EF10BF8009B58DF = {
+			isa = PBXGroup;
+			children = (
+				810690491EF10BF8009B58DF /* salary finder */,
+				810690631EF10BF8009B58DF /* salary finderTests */,
+				8106906E1EF10BF8009B58DF /* salary finderUITests */,
+				810690481EF10BF8009B58DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		810690481EF10BF8009B58DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				810690471EF10BF8009B58DF /* salary finder.app */,
+				810690601EF10BF8009B58DF /* salary finderTests.xctest */,
+				8106906B1EF10BF8009B58DF /* salary finderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		810690491EF10BF8009B58DF /* salary finder */ = {
+			isa = PBXGroup;
+			children = (
+				8106904D1EF10BF8009B58DF /* AppDelegate.h */,
+				8106904E1EF10BF8009B58DF /* AppDelegate.m */,
+				810690501EF10BF8009B58DF /* ViewController.h */,
+				810690511EF10BF8009B58DF /* ViewController.m */,
+				810690531EF10BF8009B58DF /* Main.storyboard */,
+				810690561EF10BF8009B58DF /* Assets.xcassets */,
+				810690581EF10BF8009B58DF /* LaunchScreen.storyboard */,
+				8106905B1EF10BF8009B58DF /* Info.plist */,
+				8106904A1EF10BF8009B58DF /* Supporting Files */,
+			);
+			path = "salary finder";
+			sourceTree = "<group>";
+		};
+		8106904A1EF10BF8009B58DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8106904B1EF10BF8009B58DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		810690631EF10BF8009B58DF /* salary finderTests */ = {
+			isa = PBXGroup;
+			children = (
+				810690641EF10BF8009B58DF /* salary_finderTests.m */,
+				810690661EF10BF8009B58DF /* Info.plist */,
+			);
+			path = "salary finderTests";
+			sourceTree = "<group>";
+		};
+		8106906E1EF10BF8009B58DF /* salary finderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8106906F1EF10BF8009B58DF /* salary_finderUITests.m */,
+				810690711EF10BF8009B58DF /* Info.plist */,
+			);
+			path = "salary finderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		810690461EF10BF8009B58DF /* salary finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810690741EF10BF8009B58DF /* Build configuration list for PBXNativeTarget "salary finder" */;
+			buildPhases = (
+				810690431EF10BF8009B58DF /* Sources */,
+				810690441EF10BF8009B58DF /* Frameworks */,
+				810690451EF10BF8009B58DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "salary finder";
+			productName = "salary finder";
+			productReference = 810690471EF10BF8009B58DF /* salary finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8106905F1EF10BF8009B58DF /* salary finderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810690771EF10BF8009B58DF /* Build configuration list for PBXNativeTarget "salary finderTests" */;
+			buildPhases = (
+				8106905C1EF10BF8009B58DF /* Sources */,
+				8106905D1EF10BF8009B58DF /* Frameworks */,
+				8106905E1EF10BF8009B58DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810690621EF10BF8009B58DF /* PBXTargetDependency */,
+			);
+			name = "salary finderTests";
+			productName = "salary finderTests";
+			productReference = 810690601EF10BF8009B58DF /* salary finderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8106906A1EF10BF8009B58DF /* salary finderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8106907A1EF10BF8009B58DF /* Build configuration list for PBXNativeTarget "salary finderUITests" */;
+			buildPhases = (
+				810690671EF10BF8009B58DF /* Sources */,
+				810690681EF10BF8009B58DF /* Frameworks */,
+				810690691EF10BF8009B58DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8106906D1EF10BF8009B58DF /* PBXTargetDependency */,
+			);
+			name = "salary finderUITests";
+			productName = "salary finderUITests";
+			productReference = 8106906B1EF10BF8009B58DF /* salary finderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8106903F1EF10BF8009B58DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = narenderpalsingh;
+				TargetAttributes = {
+					810690461EF10BF8009B58DF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = X8A3SL2629;
+						ProvisioningStyle = Automatic;
+					};
+					8106905F1EF10BF8009B58DF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = X8A3SL2629;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 810690461EF10BF8009B58DF;
+					};
+					8106906A1EF10BF8009B58DF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = X8A3SL2629;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 810690461EF10BF8009B58DF;
+					};
+				};
+			};
+			buildConfigurationList = 810690421EF10BF8009B58DF /* Build configuration list for PBXProject "salary finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8106903E1EF10BF8009B58DF;
+			productRefGroup = 810690481EF10BF8009B58DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				810690461EF10BF8009B58DF /* salary finder */,
+				8106905F1EF10BF8009B58DF /* salary finderTests */,
+				8106906A1EF10BF8009B58DF /* salary finderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		810690451EF10BF8009B58DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8106905A1EF10BF8009B58DF /* LaunchScreen.storyboard in Resources */,
+				810690571EF10BF8009B58DF /* Assets.xcassets in Resources */,
+				810690551EF10BF8009B58DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8106905E1EF10BF8009B58DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810690691EF10BF8009B58DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		810690431EF10BF8009B58DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810690521EF10BF8009B58DF /* ViewController.m in Sources */,
+				8106904F1EF10BF8009B58DF /* AppDelegate.m in Sources */,
+				8106904C1EF10BF8009B58DF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8106905C1EF10BF8009B58DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810690651EF10BF8009B58DF /* salary_finderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810690671EF10BF8009B58DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810690701EF10BF8009B58DF /* salary_finderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		810690621EF10BF8009B58DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810690461EF10BF8009B58DF /* salary finder */;
+			targetProxy = 810690611EF10BF8009B58DF /* PBXContainerItemProxy */;
+		};
+		8106906D1EF10BF8009B58DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810690461EF10BF8009B58DF /* salary finder */;
+			targetProxy = 8106906C1EF10BF8009B58DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		810690531EF10BF8009B58DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				810690541EF10BF8009B58DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		810690581EF10BF8009B58DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				810690591EF10BF8009B58DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		810690721EF10BF8009B58DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		810690731EF10BF8009B58DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		810690751EF10BF8009B58DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8A3SL2629;
+				INFOPLIST_FILE = "salary finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.narenderpalsingh.salary-finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		810690761EF10BF8009B58DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8A3SL2629;
+				INFOPLIST_FILE = "salary finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.narenderpalsingh.salary-finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		810690781EF10BF8009B58DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X8A3SL2629;
+				INFOPLIST_FILE = "salary finderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.narenderpalsingh.salary-finderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/salary finder.app/salary finder";
+			};
+			name = Debug;
+		};
+		810690791EF10BF8009B58DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X8A3SL2629;
+				INFOPLIST_FILE = "salary finderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.narenderpalsingh.salary-finderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/salary finder.app/salary finder";
+			};
+			name = Release;
+		};
+		8106907B1EF10BF8009B58DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X8A3SL2629;
+				INFOPLIST_FILE = "salary finderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.narenderpalsingh.salary-finderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "salary finder";
+			};
+			name = Debug;
+		};
+		8106907C1EF10BF8009B58DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X8A3SL2629;
+				INFOPLIST_FILE = "salary finderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.narenderpalsingh.salary-finderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "salary finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		810690421EF10BF8009B58DF /* Build configuration list for PBXProject "salary finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810690721EF10BF8009B58DF /* Debug */,
+				810690731EF10BF8009B58DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810690741EF10BF8009B58DF /* Build configuration list for PBXNativeTarget "salary finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810690751EF10BF8009B58DF /* Debug */,
+				810690761EF10BF8009B58DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		810690771EF10BF8009B58DF /* Build configuration list for PBXNativeTarget "salary finderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810690781EF10BF8009B58DF /* Debug */,
+				810690791EF10BF8009B58DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8106907A1EF10BF8009B58DF /* Build configuration list for PBXNativeTarget "salary finderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8106907B1EF10BF8009B58DF /* Debug */,
+				8106907C1EF10BF8009B58DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8106903F1EF10BF8009B58DF /* Project object */;
+}
